@@ -20,6 +20,5 @@ model.compile(loss='sparse_categorical_crossentropy'
 ## last layer just one neuron 
 ```
 model.add(tf.keras.layers.Dense(1))
-model.comple(loss='mae'
-			metrics=['mae', 'mse']
+model.comple(loss='mae', metrics=['mae', 'mse']
 ```
